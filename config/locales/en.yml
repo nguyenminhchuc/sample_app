@@ -1,18 +1,19 @@
 en:
   static_pages:
     home:
-      home: "Home"
-      sample_app: "Sample App"
+      home_: "Home"
       home_pages: "This is the home page for the "
       sample_application: "sample application."
+      welcome_sample: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
     help:
-      help: "Help"
+      help_: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the "
       help_section: "Rails Tutorial help section"
       to_get_help: "To get help on this sample app, see the "
       at_book: "Ruby on Rails Tutorial book"
     about:
-      about: "About"
+      about_: "About"
       the: "The"
       is_a: "is a"
       book: "book"
@@ -21,11 +22,24 @@ en:
       teach: "to teach web development with"
       intro: "This is the sample application for the tutorial."
     contact:
-      contact: "Contact"
-      contact_at: "Contact at"
+      contact_: "Contact"
+      contact_at: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
+  users:
+    new:
+      sign_up_: "Sign up"
+      info_signup: "This will be a signup page for new users."
   tutorial: "Ruby on Rails Tutorial"
   ruby: "Ruby on Rails"
   ror_sampleapp: "Ruby on Rails Tutorial Sample App"
   english: "English"
   vietnam: "Vietnamese"
+  log_in: Log in
+  by: "by"
+  new: "New"
+  home: "Home"
+  about: "About"
+  help: "Help"
+  contact: "Contact"
+  sample_app: "Sample App"
+
