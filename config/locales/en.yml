@@ -27,8 +27,12 @@ en:
       contact_page: "contact page"
   users:
     new:
-      sign_up_: "Sign up"
+      sign_up: "Sign up"
       info_signup: "This will be a signup page for new users."
+      name: "name"
+      conf: "confirmation"
+      password: "password"
+      cr_account: "Create my account"
   tutorial: "Ruby on Rails Tutorial"
   ruby: "Ruby on Rails"
   ror_sampleapp: "Ruby on Rails Tutorial Sample App"
@@ -42,4 +46,8 @@ en:
   help: "Help"
   contact: "Contact"
   sample_app: "Sample App"
-
+  wel_app: "Welcome to the Sample App!"
+  error_signup: "sign up to fail!"
+  error_find_user: "user not found"
+  form_con: "The form contains"
+  error: "error"
