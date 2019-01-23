@@ -12,7 +12,10 @@ class User < ApplicationRecord
             {minimum: Settings.validates_user.min_password}
 
   has_secure_password
+
+  private
+
   def email_downcase
-    self.email = email.downcase
+    email.downcase!
   end
 end
