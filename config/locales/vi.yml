@@ -58,3 +58,5 @@ vi:
   log_out: "Đăng xuất"
   new_user: "Người dùng mới"
   sing_up_now: "Đăng ký ngay bây giờ!"
+  invalid: "email/password không hợp lệ"
+  remember_me: "Nhớ tôi trên máy tính nhé!"
