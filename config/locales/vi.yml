@@ -7,7 +7,7 @@ vi:
       welcome_sample: "Chào mừng đến với ứng dụng mẫu"
       sign_up: "Đăng ký ngay bây giờ"
     help:
-      help_: "Hỗ trợ"
+      help: "Hỗ trợ"
       get_help: "Nhận sự hỗ trợ Ruby on Rails tại "
       help_section: "hỗ trợ Rails Tutorial "
       to_get_help: "Nếu muốn nhận sự hỗ trợ từ ứng dụng mẫu này, xem tại "
@@ -27,12 +27,20 @@ vi:
       contact_page: "trang nay"
   users:
     new:
-      sign_up_: "Đăng ký"
+      sign_up: "Đăng ký"
       info_signup: "Đây sẽ là trang đăng ký cho người dùng mới"
       name: "Tên"
       conf: "Xác nhận"
       password: "Mật khẩu"
       cr_account: "Tạo tài khoản của bạn"
+    edit:
+      update_pro: "Cập nhật hồ sơ của bạn"
+      edit_u: "chỉnh sửa người dùng"
+      conf: "Xác nhận"
+      sv_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      all_u: "Tất cả người dùng"
   tutorial: "Hướng dẫn Ruby on Rails"
   ruby: "Ruby on Rails"
   ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
@@ -60,3 +68,11 @@ vi:
   sing_up_now: "Đăng ký ngay bây giờ!"
   invalid: "email/password không hợp lệ"
   remember_me: "Nhớ tôi trên máy tính nhé!"
+  pro_update: "Hồ sơ đã cập nhật"
+  profile_fail: "cập nhật hồ sơ thất bại"
+  ple_login: "Làm ơn đăng nhập"
+  u_delete: "Đã xóa"
+  del_fail: "Xóa thất bại"
+  delete: "xóa"
+  sure: "Bạn chắc chắn chứ?"
+  not_find: "không tìm thấy"
