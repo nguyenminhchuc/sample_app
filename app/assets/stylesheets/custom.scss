@@ -1,22 +1,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
-/*variable */
-$white: #fff;
-$gray: #555;
-$gray-darker: #222;
-$gray-light: #777;
-$gray-lighter: #3a8057;
-$gray-medium-light: #eaeaea;
-$state-danger-text: #8c7c7c;
+@import 'colors.scss';
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* miscellaneous */
 
 .debug_dump {
   clear: both;
@@ -25,8 +15,6 @@ $state-danger-text: #8c7c7c;
   margin-top: 45px;
   @include box_sizing;
 }
-
-/* universal */
 
 body {
   padding-top: 60px;
@@ -46,7 +34,6 @@ textarea {
     margin-bottom: 10px;
   }
 }
-/* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -72,7 +59,6 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
-/* header */
 
 #logo {
   float: left;
@@ -88,7 +74,7 @@ p {
     text-decoration: none;
   }
 }
-/* footer */
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -149,7 +135,7 @@ aside {
 }
 
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $silver;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -160,9 +146,9 @@ input {
 }
 
 #error_explanation {
-  color: red;
+  color: $red;
   ul {
-    color: red;
+    color: $red;
     margin: 0 0 30px;
   }
 }
@@ -194,5 +180,50 @@ input {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $white-cloud;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
   }
 }
